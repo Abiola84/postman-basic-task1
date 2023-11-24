@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="STSTStudentCourse" tests="16" time="11.333">
+  <testsuite name="Get All Todo Entries / Get All Todo Entries" id="6d7ccbe0-3d05-4678-b590-5576c8f290ee" timestamp="2023-11-24T18:15:45.207Z" tests="7" failures="0" errors="0" time="0.859">
+    <testcase name="Status code should be 200" time="0.859" classname="StstStudentCourse"/>
+    <testcase name="Status code name should have an OK string" time="0.859" classname="StstStudentCourse"/>
+    <testcase name="confirm that the api version is 7.2.3.0" time="0.859" classname="StstStudentCourse"/>
+    <testcase name="Body matches string" time="0.859" classname="StstStudentCourse"/>
+    <testcase name="confirm that the title is fusio" time="0.859" classname="StstStudentCourse"/>
+    <testcase name="confirm that the Payment currency is EUR" time="0.859" classname="StstStudentCourse"/>
+  </testsuite>
+  <testsuite name="Get All Entries / Get All Entries" id="f88070e2-2616-4dab-b195-dbc6206d53ac" timestamp="2023-11-24T18:15:45.207Z" tests="4" failures="0" errors="0" time="0.263">
+    <testcase name="Status code is 200" time="0.263" classname="StstStudentCourse"/>
+    <testcase name="Status code name has string" time="0.263" classname="StstStudentCourse"/>
+    <testcase name="expect api version to be 7.2.3.0" time="0.263" classname="StstStudentCourse"/>
+    <testcase name="expect Payment currency to be EUR" time="0.263" classname="StstStudentCourse"/>
+  </testsuite>
+  <testsuite name="Get entry per ID / Get entry per ID - Valid ID" id="6593dd54-45e4-45d6-b1a8-74e4cee609ec" timestamp="2023-11-24T18:15:45.207Z" tests="6" failures="0" errors="0" time="0.253">
+    <testcase name="Status code is 200" time="0.253" classname="StstStudentCourse"/>
+    <testcase name="Response has the required fields" time="0.253" classname="StstStudentCourse"/>
+    <testcase name="apiVersion is a non-empty string" time="0.253" classname="StstStudentCourse"/>
+    <testcase name="Validate that title is a non-empty string" time="0.253" classname="StstStudentCourse"/>
+    <testcase name="Validate that paymentCurrency is a non-empty string" time="0.253" classname="StstStudentCourse"/>
+    <testcase name="Categories is an array and is not empty" time="0.253" classname="StstStudentCourse"/>
+  </testsuite>
+  <testsuite name="Get entry per ID / Get entry per ID - Invalid ID(params not using TODO ID)" id="3f9ca8e5-50e7-46fe-b8ee-0fd3d055718e" timestamp="2023-11-24T18:15:45.207Z" tests="1" failures="0" errors="0" time="0.257">
+    <testcase name="Status code should be 1000" time="0.257" classname="StstStudentCourse"/>
+  </testsuite>
+  <testsuite name="Get Books / Get All Books" id="39e62b97-a025-4806-9453-d5eed4f9a5c0" timestamp="2023-11-24T18:15:45.207Z" tests="2" failures="0" errors="0" time="1.120">
+    <testcase name="Status code is 200" time="1.120" classname="StstStudentCourse"/>
+    <testcase name="Status code name has OK string" time="1.120" classname="StstStudentCourse"/>
+  </testsuite>
+  <testsuite name="Get Books / Get Books by ID" id="520ea10a-00ec-475d-9f2c-f0ef003705a5" timestamp="2023-11-24T18:15:45.207Z" tests="0" failures="0" errors="0" time="0.229"/>
+  <testsuite name="Get Books / Get Books by Type" id="008c2f29-7321-4c8a-8a1e-fb0ca23e7574" timestamp="2023-11-24T18:15:45.207Z" tests="0" failures="0" errors="0" time="1.015"/>
+  <testsuite name="Place a book order / Place a book order - using book ID" id="741ad712-144f-467c-b7aa-9329f9d7b10d" timestamp="2023-11-24T18:15:45.207Z" tests="3" failures="0" errors="0" time="0.599">
+    <testcase name="Status code is 201" time="0.599" classname="StstStudentCourse"/>
+    <testcase name="Status code name has string" time="0.599" classname="StstStudentCourse"/>
+    <testcase name="order created" time="0.599" classname="StstStudentCourse"/>
+  </testsuite>
+  <testsuite name="Get an order / Get all orders" id="e36ce451-3bde-4e55-a88e-774685651dc7" timestamp="2023-11-24T18:15:45.207Z" tests="0" failures="0" errors="0" time="0.772"/>
+  <testsuite name="Get an order / Get an order - using orderID" id="9dd7e93a-df17-4ef0-9153-8b44f28cde07" timestamp="2023-11-24T18:15:45.207Z" tests="0" failures="0" errors="0" time="0.627"/>
+  <testsuite name="Get an order / Get an order -using an invalid orderID" id="bf6ce0ab-8dd3-4979-add4-0e97f2af762f" timestamp="2023-11-24T18:15:45.207Z" tests="0" failures="0" errors="0" time="1.158"/>
+  <testsuite name="Update an order / Update an order" id="4f7307c1-d7d4-47e1-8ca2-212c1cd0c602" timestamp="2023-11-24T18:15:45.207Z" tests="0" failures="0" errors="0" time="1.224"/>
+  <testsuite name="Delete an order / Delete an order" id="f974b6ec-50b3-4e2f-bd7f-7cafd6e3648c" timestamp="2023-11-24T18:15:45.207Z" tests="2" failures="0" errors="0" time="1.038">
+    <testcase name="Status code is 204" time="1.038" classname="StstStudentCourse"/>
+    <testcase name="Status code name has No Content'" time="1.038" classname="StstStudentCourse"/>
+  </testsuite>
+  <testsuite name="Delete an order / Delete an order two" id="06bc8549-505e-48b7-8553-55e1318ab3ee" timestamp="2023-11-24T18:15:45.207Z" tests="0" failures="0" errors="0" time="0.580"/>
+  <testsuite name="Register API Client" id="d05ea29d-cc4f-4bef-8acc-19deb7a52078" timestamp="2023-11-24T18:15:45.207Z" tests="0" failures="0" errors="0" time="0.566"/>
+  <testsuite name="Get API Status" id="a8277db5-46ff-474e-8e2a-f6f6befc0256" timestamp="2023-11-24T18:15:45.207Z" tests="0" failures="0" errors="0" time="0.773"/>
+</testsuites>
